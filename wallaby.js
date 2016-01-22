@@ -5,6 +5,7 @@ module.exports = function (wallaby) {
 
   return {
     files: [
+      // NOTE that with npm >=3 the file structure may be different
       'node_modules/angular2/node_modules/zone.js/dist/zone-microtask.js',
       'node_modules/angular2/node_modules/zone.js/dist/long-stack-trace-zone.js',
       'node_modules/angular2/node_modules/zone.js/dist/jasmine-patch.js',
